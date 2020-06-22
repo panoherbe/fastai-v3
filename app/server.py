@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://drive.google.com/uc?export=download&id=1-GOzfSPbtSGhyVzzkbn9oME7DYI70HFc'
 export_file_name = 'export.pkl'
 
-classes = ['labdiamond_images', 'diamond_images']
+classes = ['Lab diamond', 'Natural diamond']
 path = Path(__file__).parent
 
 app = Starlette()
